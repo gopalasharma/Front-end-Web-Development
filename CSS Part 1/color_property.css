@@ -1,0 +1,21 @@
+/* Change the color with the help of color name. */
+h1{
+    /* It is for foreground color */
+    color: red;
+    /* It is for background color */
+    background-color: purple;
+}
+
+p{
+    /* It is for foreground color */
+    color: blue;
+    /* It is for background color */
+    background-color: pink;
+}
+
+button{
+     /* It is for foreground color */
+     color: gold;
+     /* It is for background color */
+     background-color: black;
+}
