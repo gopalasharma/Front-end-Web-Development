@@ -1,0 +1,21 @@
+/* 1. element:hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* 2. element:active */
+button:active{
+    background-color: pink;
+}
+
+/* 3. element:checked */
+input[type= "radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* 4. element:nth-of-type()*/
+div:nth-of-type(2){
+    background-color: blanchedalmond;
+}

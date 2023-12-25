@@ -1,0 +1,19 @@
+h1{
+    color: darkorange;
+}
+
+/* 1. element:: first-letter */
+h1::first-letter{
+    color: blue;
+}
+
+/* 2. elemet:: first-line */
+p::first-line{
+    color: indigo;
+    font-weight: bold;
+}
+
+/* 3. element:: selection*/
+p::selection{
+    background-color: brown;
+}
