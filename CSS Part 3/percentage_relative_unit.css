@@ -1,0 +1,20 @@
+h1{
+    border: 2px solid black;
+    width: 50%; 
+    /* Meri width ab screen ka 50% size occupy kar legi */
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    margin: 50px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin-left: 10%; /* Ab ye apne parent ke size ke according 10% margin le
+    lega matlab outer div ke size ke according*/
+}

@@ -1,0 +1,22 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    /* display: inline;  */
+     /*Agar mai is block element ko inline bana
+     deta hu to iski saari styling hat jaegi
+     koi bhi style apply nhi hogi  */
+
+     display: inline-block;
+     /* Isliye hum isko inline-block denge display
+     me jisse ye ek inline element ki tarah behave
+     kare aur styling block element ki tarah apply ho */
+}
+
+#thirddiv{
+    display: none;
+    /* Display none krne se element screen se 
+    HIDE ho jayega */
+}

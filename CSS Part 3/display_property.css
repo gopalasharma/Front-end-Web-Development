@@ -1,0 +1,40 @@
+/* h2{
+    display: inline;
+    background-color: aqua;
+}
+
+span{
+    display: block;
+    background-color: green;
+} */
+
+ span{
+    background-color: red; 
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    /* Mera SPAN DIV ke andar hai aur jab mai 
+    apne span ko height and width property de rha 
+    hu to usko koi fark nhi pad rha*/
+    
+    padding: 50px;
+    /* Ab jab mai apne inline element ko SPAN ko 
+    padding de rha hu to vo baki elements ke saath 
+    merge ho rahi hai aur padding left and right side set hui hai*/
+
+    margin: 20px;
+    /* Aese hi same margin ke saath hai left and right side par margin
+    set ho rahi hai inline element ke liye   */
+ }
+
+ div{
+    /* background-color: red;  */
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+
+    /* DIV EK BLOCK ELEMENT HAI to ispar meri sabhi
+    properties apply ho gayi */
+ }

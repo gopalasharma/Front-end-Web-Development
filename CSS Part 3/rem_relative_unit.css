@@ -1,0 +1,8 @@
+section{
+    font-size: 25px;
+}
+div{
+    font-size: 0.5rem;
+    /* Ab iska size root element ke according
+    set hoga jisse SNOWBALL EFFECT occur nhi hoga */
+}
