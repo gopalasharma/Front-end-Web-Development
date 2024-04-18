@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+
+    /* APLHA CHANNEL WHICH SETS THE OPACITY OF COLOR */
+    background-color: rgba(255, 0, 0, 0.794);
+}
+
+#opacity{
+    background-color: #ffa511;
+
+    /* OPACITY PROPERTY WHICH SETS THE OPACITY OF A ELEMENT */
+    opacity: 0.7;
+}
