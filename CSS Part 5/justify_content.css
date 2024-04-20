@@ -1,0 +1,30 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: column-reverse;
+
+    /* Justify content */
+    justify-content: flex-start;  /*Content start ke along justify ho jayega*/
+    /* justify-content: flex-end; Content end ke along justify ho jayega */
+    /* justify-content: center; Content center ke along justisy ho jayega */
+    /* justify-content: space-between; isse kya hoga ki jitni bhi extra space hogi vo flex items ke beech aa jayegi */
+    /* justify-content: space-around; isse kya hoga ki hmare left and right flex element ko beech ki space ki half space mil jayegi */
+    /* justify-content: space-evenly; isse kya hoga ki hmare left and right flex element ko beech ki space ke equal space mil jayegi */
+}
+  
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 20px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
