@@ -1,0 +1,28 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /* Flex wrap property */
+    /* flex-wrap: nowrap; isme ye hoga ki hum apne items ki width badake usko same line me rkhenge next line me nhi leke jayenge */
+      flex-wrap: wrap; /*isme ye hoga ki hum apne items ki width badhake usko next line ki jagah same line me wrap krenge aur main axis ke along wrap hote hain */
+    /* flex-wrap: wrap-reverse; isme ye hoga ki mere items next line me wrap honge lekin reverse format me aur ye cross axis ke along reverse format me wrap hote */
+}
+  
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
