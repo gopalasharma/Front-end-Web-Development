@@ -1,0 +1,46 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* MEDIA QUERIES WIDTH*/
+@media (width: 400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+    }
+}
+
+/* MEDIA QUERIES min-width */
+@media (min-width: 700px){
+    h1{
+        background-color: greenyellow;
+    }
+}
+
+/* MEDIA QUERIES max-width */
+@media (max-width: 200px){
+    h1{
+        background-color: palegoldenrod;
+    }
+}
+
+/* We can write the max and min width combinely */
+@media(min-width:200px) and (max-width:300px){
+    h1{
+        background-color: magenta;
+    }
+}
+
+/* MEDIA QUERIES ORIENTATION */
+@media(orientation: landscape){
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}

@@ -1,0 +1,26 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    display: grid; 
+   
+    /* Defining the ROWS IN OUR GRID */
+    /* grid-template-rows: 50px 50px 50px 50px; */
+    /* grid-template-rows: 100px 100px 100px; */
+
+    /* Defining the COLUMNS IN OUR GRID */
+    /* grid-template-columns: 50px 50px 50px 50px; */
+    /* grid-template-columns: 100px 100px 100px;*/
+
+    /* Using the REPEAT METHOD FOR DIVIDE ALL AVAILABLE SPACE into rows or column */
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item{
+    /* width: 100px;
+    height: 50px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

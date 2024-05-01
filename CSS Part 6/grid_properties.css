@@ -1,0 +1,44 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: grid;   
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px; 
+
+    /* Justify-items property */
+    /* justify-items: start; */
+    /* justify-items: end; */
+    /* justify-items: center; */
+
+    /* Align-items property */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: center; */
+
+    /* Place property for both horizontal and vertical directions and using when our values for both direction is same */
+    place-items: center;
+}
+
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* .one{ */
+
+    /* Justify-self property */
+    /* justify-self: end; */
+
+    /* Align-self property */
+    /* align-self: end; */
+/* } */
+
+.one{
+    /* Place self property for both directions */
+    place-self: start;
+}
