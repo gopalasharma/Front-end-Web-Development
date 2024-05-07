@@ -1,0 +1,74 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* Defining the animation properties for box class font */
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    /* animation-direction: normal; */
+    animation-direction: alternate;
+
+    
+    /* Defining the animation properties for box class color */
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    /* animation-direction: normal; */
+    animation-direction: alternate;
+
+        
+    /* Defining the animation properties for box class width*/
+    /* animation-name: widthAnimate; */
+    /* animation-duration: 3s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    /* animation-direction: alternate; */
+
+    /* ANIMATION SHORTHAND for box class width property*/
+    animation: widthAnimate 3s ease-in 0s infinite normal;
+ 
+}
+
+/* Creation A Template for animation */
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+        /* We can add multiple properties for a element */
+        /* background-color: green; */
+    }
+    to{
+        font-size: 40px;
+        background-color: blue;
+        border-radius: 15px;
+    }
+}
+
+@keyframes colorAnimate{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+        background-color: green;
+    }
+    to{
+        width: 400px;
+        background-color: blue;
+        border-radius: 15px;
+    }
+}
+

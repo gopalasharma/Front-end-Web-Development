@@ -1,0 +1,28 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation: myFontWeight 2s ease-in-out 3s infinite normal;
+}
+
+/* % in Animation */
+@keyframes myFontWeight{
+    0%{
+        background-color: green;
+        font-style: normal;
+        border-radius: 0px;
+        width: 10px;
+    }
+    50%{
+        background-color: blue;
+        font-style: oblique;
+        border-radius: 10px;
+        width: 200px;
+    }
+    100%{
+        font-style: italic;
+        background-color: aqua;
+        border-radius: 30px;
+        width: 400px;
+    }
+}
